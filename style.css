@@ -73,6 +73,7 @@
 
 .upcoming-match-right{
     flex: 1;
+    display: grid;
 }
 
 .upcoming-match-right .card{
