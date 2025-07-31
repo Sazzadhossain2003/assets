@@ -124,6 +124,11 @@ img{
 
 /* laptop tab */
 @media (max-width:992px){
+   /* container */
+   .container{
+    margin: 0 20px;
+   }
+
     /* banner */
   .banner h2{
     font-size: 50px;
@@ -152,6 +157,11 @@ img{
 }
 
 /* mobile */
+/* container */
+   .container{
+    margin: 0 10px;
+   }
+
 @media (max-width: 768px){
     .banner{
         flex-direction: column;
@@ -164,5 +174,8 @@ img{
     }
     .banner .banner-left p{
         margin: 15px auto;
+    }
+    .upcoming-match-right{
+        grid-template-columns: 1fr;
     }
 }
